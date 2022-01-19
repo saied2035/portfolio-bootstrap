@@ -1,12 +1,18 @@
-/* body {
- 	font-family: $font-family;
-  background: $body-background-image;
-  background-size: $body-background-size ;
- }*/
+body {
+  font-family: "Inter", serif;
+  background: url(../images/desktopbackground.png) no-repeat top; }
+
 nav ul li {
   color: #505f79;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer; }
+
+h1 {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700; }
+  h1 span {
+    color: #36b37e; }
 
 /*# sourceMappingURL=style.css.map */

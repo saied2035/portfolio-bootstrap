@@ -1,11 +1,10 @@
 $font-family: 'Inter', serif;
 $body-background-image: url(../images/desktopbackground.png) no-repeat top;
-$body-background-size: contain ;
-/* body {
+
+body {
  	font-family: $font-family;
   background: $body-background-image;
-  background-size: $body-background-size ;
- }*/
+}
 
 $turn-into-pointer: pointer;
 
@@ -18,4 +17,18 @@ nav ul li {
 	font-size: $nav-font-size;
 	font-weight: $nav-font-weight;
 	cursor: $turn-into-pointer;
+}
+
+$h1-font-size: 40px;
+$h1-color: #172b4d;
+$h1-font-weight: 700;
+$h1-span-color: #36b37e;
+
+h1 {
+	color: $h1-color;
+	font-size: $h1-font-size;
+	font-weight: $h1-font-weight;
+  span {
+	  color: $h1-span-color;
+  }
 }
