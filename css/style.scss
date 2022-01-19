@@ -1,13 +1,13 @@
 $font-family: 'Inter', serif;
-$body-background-image: url(../images/desktopbackground.png) no-repeat top;
+$body-background-image: url(../images/desktopbackground.png) no-repeat right 0 top 0;
 
 body {
  	font-family: $font-family;
   background: $body-background-image;
+  background-size: 100%;
 }
 
 $turn-into-pointer: pointer;
-
 $nav-list-color: #505f79;
 $nav-font-size: 16px;
 $nav-font-weight: bold;
@@ -31,4 +31,22 @@ h1 {
   span {
 	  color: $h1-span-color;
   }
+}
+$card-description-color: #3a4a42;
+$card-description-font-size: 24px;
+$card-description-font-weight: 600;
+$card-description-margin-block-end: 0;
+.card-body {
+	color: $card-description-color;
+	font-size: $card-description-font-size;
+	font-weight: $card-description-font-weight;
+	margin-block-end: $card-description-margin-block-end;
+}
+$card-btn-space-bottom: 2.5rem;
+.card-btn {
+	margin-block-end: $card-btn-space-bottom;
+}
+$works-section-space-top : 32rem;
+.works-section {
+	margin-block-start: $works-section-space-top;
 }
