@@ -28,4 +28,25 @@ h1 {
 .works-section {
   margin-block-start: 32rem; }
 
+.list-item {
+  color: #36b37e;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 8px;
+  line-height: 16px; }
+
+.cat-text {
+  color: #344563;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px; }
+
+.about-section {
+  background: url(../images/aboutimg1-desktop.png) no-repeat right 0 top -55px, url(../images/aboutimg2-desktop.png) no-repeat left 0 top 55px; }
+
+.category {
+  background: #ebf0ee;
+  border-radius: 8px;
+  border: 1px solid #c1c7d0; }
+
 /*# sourceMappingURL=style.css.map */

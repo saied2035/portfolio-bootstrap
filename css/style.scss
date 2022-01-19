@@ -50,3 +50,46 @@ $works-section-space-top : 32rem;
 .works-section {
 	margin-block-start: $works-section-space-top;
 }
+
+$category-list-item-color: #36b37e;
+$category-list-item-font-size: 12px;
+$category-list-item-font-weight: 600;
+$category-list-item-border-radius: 8px;
+$category-list-item-line-height: 16px;
+
+.list-item {
+	color: $category-list-item-color;
+	font-size: $category-list-item-font-size;
+	font-weight: $category-list-item-font-weight;
+	border-radius: $category-list-item-border-radius;
+	line-height: $category-list-item-line-height;
+}
+
+$cat-text-color: #344563;
+$cat-text-font-size: 24px;
+$cat-text-font-weight: 600;
+$cat-text-line-height: 32px;
+
+.cat-text {
+	color: $cat-text-color;
+	font-size: $cat-text-font-size;
+	font-weight: $cat-text-font-weight;
+	line-height: $cat-text-line-height;
+}
+
+$about-image-1: url(../images/aboutimg1-desktop.png) no-repeat right 0 top -55px;
+$about-image-2: url(../images/aboutimg2-desktop.png) no-repeat left 0 top 55px;
+
+.about-section {
+	background: $about-image-1, $about-image-2;
+}
+
+$category-background: #ebf0ee;
+$category-border-radius: 8px;
+$category-border:  1px solid #c1c7d0;
+
+.category {
+	background: $category-background;
+	border-radius: $category-border-radius;
+	border: $category-border;
+}
