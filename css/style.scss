@@ -1,0 +1,21 @@
+$font-family: 'Inter', serif;
+$body-background-image: url(../images/desktopbackground.png) no-repeat top;
+$body-background-size: contain ;
+/* body {
+ 	font-family: $font-family;
+  background: $body-background-image;
+  background-size: $body-background-size ;
+ }*/
+
+$turn-into-pointer: pointer;
+
+$nav-list-color: #505f79;
+$nav-font-size: 16px;
+$nav-font-weight: bold;
+
+nav ul li {
+	color: $nav-list-color;
+	font-size: $nav-font-size;
+	font-weight: $nav-font-weight;
+	cursor: $turn-into-pointer;
+}
