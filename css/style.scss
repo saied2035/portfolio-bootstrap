@@ -1,14 +1,16 @@
 $font-family: 'Inter', serif;
 $body-background-desktop-image: url(../images/desktopbackground.png) no-repeat right 0 top 0;
 $body-background-mobile-image: url(../images/header-illsutration-mobile.png) no-repeat top;
+
 body {
- 	font-family: $font-family;
+  font-family: $font-family;
   background: $body-background-desktop-image;
   background-size: 100%;
+
   @media screen and (max-width: 992px) {
-  	 background: $body-background-mobile-image;
-  	 background-position-y: 2.5rem;
-  	 background-size: 100% 100vh;
+    background: $body-background-mobile-image;
+    background-position-y: 2.5rem;
+    background-size: 100% 100vh;
   }
 }
 
@@ -18,10 +20,10 @@ $nav-font-size: 16px;
 $nav-font-weight: bold;
 
 nav ul li {
-	color: $nav-list-color;
-	font-size: $nav-font-size;
-	font-weight: $nav-font-weight;
-	cursor: $turn-into-pointer;
+  color: $nav-list-color;
+  font-size: $nav-font-size;
+  font-weight: $nav-font-weight;
+  cursor: $turn-into-pointer;
 }
 
 $h1-font-size: 40px;
@@ -30,30 +32,34 @@ $h1-font-weight: 700;
 $h1-span-color: #36b37e;
 
 h1 {
-	color: $h1-color;
-	font-size: $h1-font-size;
-	font-weight: $h1-font-weight;
+  color: $h1-color;
+  font-size: $h1-font-size;
+  font-weight: $h1-font-weight;
+
   span {
-	  color: $h1-span-color;
+    color: $h1-span-color;
   }
 }
 $card-description-color: #3a4a42;
 $card-description-font-size: 24px;
 $card-description-font-weight: 600;
 $card-description-margin-block-end: 0;
+
 .card-body {
-	color: $card-description-color;
-	font-size: $card-description-font-size;
-	font-weight: $card-description-font-weight;
-	margin-block-end: $card-description-margin-block-end;
+  color: $card-description-color;
+  font-size: $card-description-font-size;
+  font-weight: $card-description-font-weight;
+  margin-block-end: $card-description-margin-block-end;
 }
 $card-btn-space-bottom: 2.5rem;
+
 .card-btn {
-	margin-block-end: $card-btn-space-bottom;
+  margin-block-end: $card-btn-space-bottom;
 }
 $works-section-space-top : 32rem;
+
 .works-section {
-	margin-block-start: $works-section-space-top;
+  margin-block-start: $works-section-space-top;
 }
 
 $category-list-item-color: #36b37e;
@@ -63,11 +69,11 @@ $category-list-item-border-radius: 8px;
 $category-list-item-line-height: 16px;
 
 .list-item {
-	color: $category-list-item-color;
-	font-size: $category-list-item-font-size;
-	font-weight: $category-list-item-font-weight;
-	border-radius: $category-list-item-border-radius;
-	line-height: $category-list-item-line-height;
+  color: $category-list-item-color;
+  font-size: $category-list-item-font-size;
+  font-weight: $category-list-item-font-weight;
+  border-radius: $category-list-item-border-radius;
+  line-height: $category-list-item-line-height;
 }
 
 $cat-text-color: #344563;
@@ -76,10 +82,10 @@ $cat-text-font-weight: 600;
 $cat-text-line-height: 32px;
 
 .cat-text {
-	color: $cat-text-color;
-	font-size: $cat-text-font-size;
-	font-weight: $cat-text-font-weight;
-	line-height: $cat-text-line-height;
+  color: $cat-text-color;
+  font-size: $cat-text-font-size;
+  font-weight: $cat-text-font-weight;
+  line-height: $cat-text-line-height;
 }
 $about-margin-block-start: 8rem;
 $about-image-1: url(../images/aboutimg1-desktop.png) no-repeat right 0 top -55px;
@@ -87,30 +93,36 @@ $about-image-2: url(../images/aboutimg2-desktop.png) no-repeat left 0 top 55px;
 $about-image-mobile-1: url(../images/aboutimg1.png) no-repeat right 0 top 0;
 $about-image-mobile-2: url(../images/aboutimg2.png) no-repeat left 0 top 15rem;
 $about-image-mobile-sm-2: url(../images/aboutimg2.png) no-repeat left 0 top 19rem;
+
 .about-section {
-	background: $about-image-1, $about-image-2;
-	margin-block-start: $about-margin-block-start ;
-	@media screen and (max-width: 992px) {
-		background: $about-image-mobile-1, $about-image-mobile-2;
-	}
-		@media screen and (max-width: 400px) {
-		background: $about-image-mobile-1, $about-image-mobile-sm-2;
-	}
+  background: $about-image-1, $about-image-2;
+  margin-block-start: $about-margin-block-start;
+
+  @media screen and (max-width: 992px) {
+    background: $about-image-mobile-1, $about-image-mobile-2;
+  }
+
+  @media screen and (max-width: 400px) {
+    background: $about-image-mobile-1, $about-image-mobile-sm-2;
+  }
 }
 $about-text-padding-inline: 5rem;
 $about-text-margin-block-end: 1.5rem;
+
 .about-text {
-	padding-inline-start: $about-text-padding-inline;
-	padding-inline-end: $about-text-padding-inline;
-	margin-block-end: $about-text-margin-block-end;
-	@media screen and (max-width: 992px) {
-		width: 90vh;
-		padding-inline-start: 0;
-		padding-inline-end: 0;
-	}
+  padding-inline-start: $about-text-padding-inline;
+  padding-inline-end: $about-text-padding-inline;
+  margin-block-end: $about-text-margin-block-end;
+
+  @media screen and (max-width: 992px) {
+    width: 90vh;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+  }
 }
 $about-btn-margin-block-start: 1.5rem;
 $about-btn-margin-block-end: 4rem;
+
 .about-btn {
   margin-block-start: $about-btn-margin-block-start;
   margin-block-end: $about-btn-margin-block-end;
@@ -120,61 +132,72 @@ $category-border-radius: 8px;
 $category-border:  1px solid #c1c7d0;
 
 .category {
-	background: $category-background;
-	border-radius: $category-border-radius;
-	border: $category-border;
-	width: 31vw;
-	@media screen and (max-width: 768px) {
-		width: 80vw;
-	}
-	ul {
-		margin-block-end: 5rem;
-	}
+  background: $category-background;
+  border-radius: $category-border-radius;
+  border: $category-border;
+  width: 31vw;
+
+  @media screen and (max-width: 768px) {
+    width: 80vw;
+  }
+
+  ul {
+    margin-block-end: 5rem;
+  }
 }
 $desktop-input-width: 23vw;
+
 .desktop-input {
-	width: $desktop-input-width;
+  width: $desktop-input-width;
 }
 $footer-btn-margin-end: 20rem;
+
 .footer-btn {
-	margin-block-end: $footer-btn-margin-end;
-	@media screen and (max-width: 768px) {
-		margin-block-end: 0 ;
-	}
+  margin-block-end: $footer-btn-margin-end;
+
+  @media screen and (max-width: 768px) {
+    margin-block-end: 0;
+  }
 }
 
 $footer-margin-block-start: 15rem;
 $footer-margin-block-start-sm: 0.5rem;
 $footer-background: url(../images/footerimg3.png) no-repeat right
-                    , url(../images/footerimg1.png) no-repeat left
-                    , url(../images/footerimg2.png) no-repeat left 12rem bottom 12rem;
-$footer-background-mobile: url(../images/footer-img.png) no-repeat right 0 bottom 0;                    
+  , url(../images/footerimg1.png) no-repeat left
+  , url(../images/footerimg2.png) no-repeat left 12rem bottom 12rem;
+$footer-background-mobile: url(../images/footer-img.png) no-repeat right 0 bottom 0;
+
 footer {
   margin-block-start: $footer-margin-block-start;
   background: $footer-background;
+
   @media screen and (max-width: 992px) {
-  	margin-block-start: $footer-margin-block-start-sm;
+    margin-block-start: $footer-margin-block-start-sm;
   }
+
   @media screen and (max-width: 768px) {
     background: $footer-background-mobile;
   }
 }
+
 form {
   @media screen and (max-width: 768px) {
-  	width: 75vw;
+    width: 75vw;
   }
 }
 $hr-width: 100vw;
 $hr-margin-block-end: 0;
+
 hr {
-	width: $hr-width;
-	margin-block-end: $hr-margin-block-end;
+  width: $hr-width;
+  margin-block-end: $hr-margin-block-end;
 }
 $footer-email-font-size: 20px;
 $footer-email-font-weight: 400;
 $footer-email-line-height:32px;
 $footer-email-color: #42526e;
 $footer-email-margin-block-end: 12rem;
+
 .footer-email {
   font-size: $footer-email-font-size;
   font-weight: $footer-email-font-weight;
